@@ -19,22 +19,21 @@
                   <Image url="@../../../../../images/rise-logo.png" />
                </image>
             </ImageView>
-            <TextField layoutX="42.0" layoutY="231.0" prefHeight="42.0" prefWidth="389.0" promptText="Email adress" styleClass="login-input" />
-            <TextField layoutX="42.0" layoutY="300.0" prefHeight="42.0" prefWidth="389.0" promptText="Password" styleClass="login-input" />
-            <Button layoutX="42.0" layoutY="364.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="389.0" styleClass="loginButton" stylesheets="@../../../../../css/login-view.css" text="Login" />
-            <Label layoutX="43.0" layoutY="100.0" styleClass="welcome-text" text="Welcome! We want you to log in " wrapText="true" />
-            <Label layoutX="42.0" layoutY="153.0" prefHeight="52.0" prefWidth="346.0" text="Don't worry, we just want to get all your information and sell it to get money haha. Just kidding! More or less.." wrapText="true">
-               <font>
-                  <Font name="Calibri" size="14.0" />
-               </font>
-            </Label>
+            <TextField layoutX="42.0" layoutY="140.0" prefHeight="42.0" prefWidth="389.0" promptText="Username" styleClass="login-input" />
+            <TextField layoutX="42.0" layoutY="307.0" prefHeight="42.0" prefWidth="389.0" promptText="Password" styleClass="login-input" />
+            <Button layoutX="42.0" layoutY="413.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="389.0" styleClass="loginButton" stylesheets="@../../../../../css/login-view.css" text="Sign in" />
+            <Label layoutX="43.0" layoutY="90.0" styleClass="welcome-text" text="Sign in! It will save your life lol" wrapText="true" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="457.0" layoutX="472.0" layoutY="38.0" stroke="BLACK" strokeType="INSIDE" width="335.0" />
-            <Label layoutX="43.0" layoutY="437.0" styleClass="signin-label" text="You don't have an account? Why? ">
+            <Label layoutX="43.0" layoutY="473.0" styleClass="signin-label" text="Already have an account?">
                <font>
                   <Font name="Calibri" size="14.0" />
                </font>
             </Label>
-            <Button alignment="TOP_RIGHT" layoutX="45.0" layoutY="432.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="243.0" styleClass="signin-sentence" text="Sign in" />
-         </children></Pane>
+            <Button alignment="TOP_RIGHT" layoutX="45.0" layoutY="468.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="187.0" styleClass="signin-sentence" text="Login" />
+            <TextField layoutX="42.0" layoutY="196.0" prefHeight="42.0" prefWidth="389.0" promptText="Email" styleClass="login-input" />
+            <TextField layoutX="42.0" layoutY="252.0" prefHeight="42.0" prefWidth="389.0" promptText="Phone" styleClass="login-input" />
+            <TextField layoutX="42.0" layoutY="362.0" prefHeight="42.0" prefWidth="389.0" promptText="Confirm password" styleClass="login-input" />
+         </children>
+      </Pane>
    </children>
 </AnchorPane>

@@ -2,15 +2,15 @@
 
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.AnchorPane?>
 
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="720.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
-  <children>
-    <ImageView fitHeight="361.0" fitWidth="680.0" layoutY="44.0">
-      <image>
-        <Image url="@/../java/org/example/jp/imou/rise/images/splashScreen-Rise.png" />
-      </image>
-    </ImageView>
-  </children>
-</Pane>
+<AnchorPane fx:id="AnchorSplash" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="720.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.jp.imou.rise.controller.SplashScreenController">
+   <children>
+      <ImageView fitHeight="361.0" fitWidth="680.0" layoutY="45.0">
+         <image>
+            <Image url="@../../../../../images/splashScreen-Rise.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

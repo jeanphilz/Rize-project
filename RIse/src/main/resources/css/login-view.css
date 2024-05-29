@@ -1,0 +1,46 @@
+.welcome-text {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-font-family: Calibri;
+}
+
+.login-input {
+    -fx-border-color: #c4c4c4;
+    -fx-background-color: transparent;
+    -fx-border-radius: 8px;
+}
+
+.login-input:focused{
+    -fx-border-color: linear-gradient(to right, #ffb8c5, #e61a3f, #e61a3f);
+}
+
+.loginButton {
+    -fx-background-color: linear-gradient(to right, #ffb8c5, #e61a3f, #e61a3f);
+    -fx-background-radius: 8px;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-font-family: Calibri;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.signin-sentence {
+    -fx-background-color: transparent;
+    -fx-font-family: Calibri;
+    -fx-font-size: 14px;
+    -fx-text-fill: blue;
+    -fx-cursor: hand;
+}
+
+.signin-sentence:hover {
+-fx-underline: true;
+}
+
+.signin-sentence:hover .signin-label {
+    -fx-underline: true;
+}
+
+.login-pane{
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.08), 30, .5, 0, 0);
+}
