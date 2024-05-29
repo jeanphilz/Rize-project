@@ -13,7 +13,7 @@
          <children>
             <ImageView fitHeight="52.0" fitWidth="138.0" layoutX="23.0" layoutY="24.0">
                <image>
-                  <Image url="@../../../../../../java/org/example/jp/imou/rise/images/rise-logo.png" />
+                  <Image url="@../../../../../../../src/main/java/org/example/jp/imou/rise/images/rise-logo.png" />
                </image>
             </ImageView>
             <TextField layoutX="42.0" layoutY="231.0" prefHeight="42.0" prefWidth="389.0" />
